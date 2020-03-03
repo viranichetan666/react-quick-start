@@ -2,19 +2,19 @@
   .an-#{$i} {
     font-size: $i * 1px !important;
     &.light-text {
-      @include ele-font(300);
+      @include ele-font("roboto-light");
     }
     &.regular-text {
-      @include ele-font(400);
+      @include ele-font("roboto-regular");
     }
     &.medium-text {
-      @include ele-font(500);
+      @include ele-font("roboto-medium");
     }
     &.bold-text {
-      @include ele-font(600);
+      @include ele-font("roboto-semi-bold");
     }
     &.demi-bold-text {
-      @include ele-font(900);
+      @include ele-font("roboto-bold");
     }
   }
   .lh-#{$i} {

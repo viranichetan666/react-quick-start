@@ -2,11 +2,11 @@
 @import "./mixins.scss";
 @import "./helper.scss";
 @import "./fonts.scss";
-@import '~antd/dist/antd.css';
+@import "./layout.scss";
+@import "~antd/dist/antd.css";
 
 body {
-	margin: 0;
-	padding: 0 !important;
-	line-height: 1.3 !important;
+  margin: 0;
+  padding: 0 !important;
+  line-height: 1.3 !important;
 }
-
